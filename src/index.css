@@ -1,0 +1,76 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BODY BACKGROUND (FINAL) */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+
+  background-image: url("https://images.unsplash.com/photo-1521791136064-7986c2920216");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* SECTION BOX (CARD STYLE) */
+.section-box {
+ background: transparent;
+  margin: 40px auto;
+  padding: 40px;
+  width: 85%;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  backdrop-filter: blur(10px);
+}
+
+/* BUTTON STYLE */
+button {
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+/* OPTIONAL SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+.main-bg {
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+              url("https://images.unsplash.com/photo-1521791136064-7986c2920216");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+
+
+/* 🔥 FORCE REMOVE ALL WHITE BACKGROUNDS */
+body,
+section,
+div,
+.services,
+.clients,
+.section-box {
+  background: transparent !important;
+}
+
+/* 🔥 APPLY GLOBAL BACKGROUND */
+body {
+  background-image: url("https://images.unsplash.com/photo-1521791136064-7986c2920216") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+

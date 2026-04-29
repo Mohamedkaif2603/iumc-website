@@ -1,0 +1,30 @@
+.clients {
+  padding: 60px 10%;
+  text-align: center;
+  background: transparent;
+}
+
+.clients h2 {
+  margin-bottom: 40px;
+  color: #0b2d5c;
+}
+
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.client-box {
+  background: #f5f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.client-box:hover {
+  background: #0b2d5c;
+  color: white;
+  transform: scale(1.05);
+}
