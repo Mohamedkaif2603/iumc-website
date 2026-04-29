@@ -12,7 +12,7 @@ function Navbar() {
       <nav className="navbar">
 
         {/* LOGO */}
-        <h2 className="logo">IUMC_GLOBAL</h2>
+        <h2 className="logo">kaif_GLOBAL</h2>
 
         {/* MENU */}
         <ul className="nav-menu">
