@@ -28,7 +28,7 @@ function Header() {
         }}
       >
         <FaWhatsapp color="#25D366" />
-        <span>+91 9841423730</span>
+        <span>+91 9791541999</span>
       </a>
 
       {/* Phone */}
@@ -43,7 +43,7 @@ function Header() {
         }}
       >
         <FaPhoneAlt />
-        <span>044 - 2653 5631 / 4796 4173</span>
+        <span>0091545889993/ 00971504719298</span>
       </a>
 
       {/* Email */}
@@ -58,7 +58,7 @@ function Header() {
         }}
       >
         <FaEnvelope />
-        <span>info@iumcglobal.com</span>
+        <span>internationaluniquecert@gmail.com</span>
       </a>
     </div>
   );
