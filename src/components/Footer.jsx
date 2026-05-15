@@ -1,5 +1,5 @@
 import "../assets/css/footer.css";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -10,6 +10,7 @@ function Footer() {
         {/* LEFT */}
         <div className="footer-section">
           <h2>IUMC_GLOBAL</h2>
+
           <p>
             We provide professional certification services to improve
             your business standards globally.
@@ -19,6 +20,7 @@ function Footer() {
         {/* MIDDLE */}
         <div className="footer-section">
           <h3>Quick Links</h3>
+
           <p>Home</p>
           <p>About Us</p>
           <p>Services</p>
@@ -27,7 +29,21 @@ function Footer() {
 
         {/* RIGHT */}
         <div className="footer-section">
+          <h3>Office Address</h3>
+
+          <p style={{ lineHeight: "28px" }}>
+            <FaMapMarkerAlt style={{ marginRight: "8px", color: "#ff4d4d" }} />
+            No.9 Starbucks Building,
+            <br />
+            5th Floor, Hamdan Street,
+            <br />
+            Abu Dhabi, UAE.
+          </p>
+
+          <br />
+
           <h3>Follow Us</h3>
+
           <div className="social-icons">
             <FaFacebook />
             <FaInstagram />
